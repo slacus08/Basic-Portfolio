@@ -1,0 +1,57 @@
+*{
+	font-family: Georgia, Times, Serif;
+}
+
+
+h1 {
+	color: white;
+	background-color: pink;
+	font-size: large;
+	align-content: center;
+	float:left;
+	padding: 10px
+}
+
+body{
+	background-color: lightblue;
+	padding: 15px;
+}
+
+.aboutme {
+    width: 60%;
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: block;
+    background-color: lightgray;
+    padding: 10px;
+    float: left;
+}
+
+.button1, .button2, .button3 {
+	color: white;
+	background-color: #4aaaa5;
+	float: right;
+	padding-right: 20px;
+}
+
+.container {
+    float: left;
+    bottom: 485px;
+    position: absolute;
+    left: 60%
+}
+
+#contact {
+	font-weight: bold;
+	margin-left: 40px;
+	border: 2px solid black;
+	padding: 30px;
+	align-content: center
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+
+}
