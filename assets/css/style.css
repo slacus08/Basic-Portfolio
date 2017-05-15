@@ -5,34 +5,42 @@
 
 h1 {
 	color: white;
-	background-color: pink;
-	font-size: large;
+	background-color: #4aaaa5;
+	font-size: x-large;
 	align-content: center;
 	float:left;
 	padding: 10px
 }
 
+h2 {
+	font-size: large;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
 body{
-	background-color: lightblue;
+	background-image: url(cheap_diagonal_fabric.png);
 	padding: 15px;
 }
 
 .aboutme {
-    width: 60%;
+    width: 55%;
     text-align: justify;
     margin-left: 10px;
     margin-top: 15px;
     display: block;
-    background-color: lightgray;
-    padding: 10px;
+    background-color: whitesmoke;
+    padding: 12px;
     float: left;
+    line-height: 1.5em;
 }
 
-.button1, .button2, .button3 {
+.link-button-wrapper {
 	color: white;
-	background-color: #4aaaa5;
 	float: right;
 	padding-right: 20px;
+	margin-right: 10px;
+	text-align: center;
 }
 
 .container {
@@ -45,7 +53,7 @@ body{
 #contact {
 	font-weight: bold;
 	margin-left: 40px;
-	border: 2px solid black;
+	border: 2px solid #4aaaa5;
 	padding: 30px;
 	align-content: center
 }
@@ -54,4 +62,34 @@ body{
 	width: 30px;
 	height: 30px;
 
+}
+
+.footer {
+  	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: .5em;
+ 	background-color: #efefef;
+ 	text-align: center;
+}
+
+#portfolio {
+	font-size: large;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+#contactsection {
+    margin-left: 105px;
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    background-color: #FAF4F4;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: #e86666;
+    font-weight: bold;
 }
