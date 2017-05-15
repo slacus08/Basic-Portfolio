@@ -140,4 +140,20 @@ img {
     font-weight: bold;
 }
 
+.button {
+    background-color: #e86666;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 400px;
+    margin-left: 100px;
+    width: 200px;
+}
+
 p:hover { background-color: pink; }
