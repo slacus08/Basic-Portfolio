@@ -70,10 +70,11 @@ body{
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
+    margin-top: 4px;
     padding: .5em;
     background-color: #efefef;
     text-align: center;
@@ -157,3 +158,106 @@ img {
 }
 
 p:hover { background-color: pink; }
+
+@media screen and (max-width: 980px) {
+    .secondcolumn {
+    float: left;
+    margin-left: 60px;
+    clear:left;
+    }
+
+    .thirdcolumn {
+    float: left;
+    clear: left;
+    margin-left: 60px;
+    }
+
+    .container {
+    float: left;
+    top: 20em;
+    }
+
+    #contact {
+    font-weight: bold;
+    margin-left: 40px;
+    border: 2px solid #4aaaa5;
+    padding: 20px;
+    position: absolute;
+    width: 125px;
+    bottom: 5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .secondcolumn {
+    float: left;
+    margin-left: 60px;
+    clear:none;
+    }
+
+    .thirdcolumn {
+    float: left;
+    clear: left;
+    margin-left: 60px;
+    }
+
+    .container {
+    float: left;
+    clear: left;
+    margin-bottom: 10em;
+    position: relative;
+    display: block;
+    bottom: 1em;
+    left: .5em;
+    }
+    
+    #contact {
+    font-weight: bold;
+    margin-left: 60px;
+    border: 2px solid #4aaaa5;
+    padding: 20px;
+    width: 125px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .secondcolumn {
+    float: left;
+    margin-left: 60px;
+    clear:left;
+    }
+
+    .thirdcolumn {
+    float: left;
+    clear: left;
+    margin-left: 60px;
+    }
+
+    .container {
+    float: left;
+    clear: left;
+    margin-top: 3em;
+    margin-bottom: 10em;
+    position: relative;
+    display: block;
+    bottom: 1em;
+    left: .5em;
+    }
+    
+    #contact {
+    font-weight: bold;
+    margin-left: 60px;
+    border: 2px solid #4aaaa5;
+    padding: 20px;
+    width: 125px;
+    }
+}
+
+
+
+
+
+
+
+
+
