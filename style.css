@@ -89,7 +89,7 @@ body{
 
 .firstcolumn {
     float: left;
-    margin-left: 60px;
+    margin-left: 70px;
 }
 
 .secondcolumn {
@@ -159,85 +159,132 @@ img {
 
 p:hover { background-color: pink; }
 
-@media screen and (max-width: 980px) {
-    .secondcolumn {
-        float: left;
-        margin-left: 60px;
-        clear:left;
+
+
+@media screen and (min-width: 768.1px) and (max-width: 980px){
+    h1{
+        margin-left: 150px;
     }
 
-    .thirdcolumn {
-        float: left;
-        clear: left;
-        margin-left: 60px;
+    #portfolio {
+        margin-left: 150px;
     }
 
-    .container {
-        float: left;
-    }
-
-    #contact {
-        font-weight: bold;
-        margin-left: 40px;
-        border: 2px solid #4aaaa5;
-        padding: 20px;
-        position: absolute;
-        width: 125px;
-
-    }
-}
-
-@media screen and (max-width: 768px) {
     .aboutme {
-        width: 80%;
-        text-align: justify;
-        margin-left: 10px;
-        margin-top: 15px;
-        display: block;
-        background-color: whitesmoke;
-        padding: 12px;
+        margin-left: 150px;
+    }
+
+    .firstcolumn {
         float: left;
-        line-height: 1.5em;
-}
+        margin-left: 10em;
+    }
+   
 
     .secondcolumn {
         float: left;
-        margin-left: 60px;
-        clear:none;
-    }
-
-    .thirdcolumn {
-        float: left;
-        clear: left;
-        margin-left: 60px;
+        margin-left: 10em;
     }
     
-    .container {
+
+    .thirdcolumn {
         float: left;
         clear: left;
-        position: relative;
-        margin-bottom: 10em;
-        display: block;
-        bottom: -2em;
-        left: .5em;
+        margin-left: 10em;
+        margin-bottom: 50px;
+    }
+
+    .one, .two, .three {
+        width: 19.9em;
+    }
+
+    img {
+        width: 20.45em;
+        height: 198px;
+    }
+
+    .container {
+        bottom: 720px;
+        top: 165px;
     }
 
     #contact {
-        font-weight: bold;
-        margin-left: 3em;
-        border: 2px solid #4aaaa5;
-        padding: 20px;
-        width: 125px;
+        margin-left: 140px;
     }
 
     #contactsection {
-       } 
+        margin-top: 25px;
+        margin-left: 150px;
+    }
+
+    .button {
+        margin-top: 365px;
+        margin-left: 150px;
+    }
 }
+
+@media screen and (min-width: 640.1px) and (max-width: 768px) {
+    .aboutme {
+        width: 80%;
+        margin-left: 65px;
+
+    }
+
+    .firstcolumn {
+        margin-left: 150px;
+    }
+    .secondcolumn {
+        float: left;
+        margin-left: 100px;
+
+    }
+    
+    .thirdcolumn {
+        float: left;
+        clear: left;
+        margin-left: 150px;
+
+    }
+
+    .container {
+        float: left;
+        clear: left;
+        margin-top: 3em;
+        bottom: 4em;
+        position: relative;
+        left: 2%;
+        width:90%;
+    }
+
+    #contact {
+        float: left;
+        clear: left;
+        margin-top: 4em;
+        position: relative;
+        font-weight: bold;
+        border: 2px solid #4aaaa5;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .button {
+        margin-top:0px;
+        width: 50%;
+        margin-left: 150px;
+    }
+
+    #contactsection {
+        position: relative;
+        width: 58%;
+        margin-left: 150px;
+    }
+}
+
 
 @media screen and (max-width: 640px) {
     h1 {
         width:100%;
     }
+
 
     .link-button-wrapper {
         float: right;
@@ -246,49 +293,68 @@ p:hover { background-color: pink; }
         margin-right: 0;
         text-align:right;
     }
+
+    .aboutme {
+        width: 70%;
+        margin-left: 75px;
+    }
     
+    .firstcolumn {
+        float: left;
+        margin-left: 10em;
+    }
+   
+
     .secondcolumn {
         float: left;
-        margin-left: 60px;
-        clear:left;
+        margin-left: 10em;
     }
+    
 
     .thirdcolumn {
         float: left;
         clear: left;
-        margin-left: 60px;
+        margin-left: 10em;
+    }
+
+    .one, .two, .three {
+        width: 19.9em;
+    }
+
+    img {
+        width: 20.45em;
+        height: 195px;
     }
 
     .container {
         float: left;
         clear: left;
         margin-top: 3em;
-        margin-bottom: 5em;
-        bottom: 2em;
+        bottom: 4em;
         position: relative;
+        left: 2%;
+        width:90%;
     }
-    
+
     #contact {
         float: left;
         clear: left;
-        margin-top: 5em;
+        margin-top: 4em;
         position: relative;
         font-weight: bold;
-        margin-left: 3em;
         border: 2px solid #4aaaa5;
         padding: 20px;
-        width: 125px;
+        width: 90%;
+        margin-left:20px;
+    }
+
+    .button {
+        margin-top:0px;
+        width: 50%;
     }
 
     #contactsection {
-        margin-top: 80px;
+        position: relative;
+        width: 60%;
+    }
 }
-
-
-
-
-
-
-
-
-
